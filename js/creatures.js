@@ -63,9 +63,9 @@ function clearAll()
         
     */
 document.querySelectorAll("div.creature").forEach(function(el){
-    el.style.backgroundColor = "#fff";
+    el.style.backgroundColor = "#ffff";
     el.style.border = "2px #000 solid";
-    });
+});
 
 
 }//end clearAll()
